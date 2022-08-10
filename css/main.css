@@ -1,2 +1,144 @@
 @import url(./reset.css);
 @import url(./global.css);
+
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.container {
+    width: 1240px;
+    padding: 0 20px;
+}
+
+.header__opening {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+}
+
+.openning-hours {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+}
+
+.header__links {
+    display: flex;
+    column-gap: 20px;
+}
+
+.header__link:hover {
+    cursor: pointer;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+}
+
+.header__contacts {
+    display: flex;
+    column-gap: 65px;
+    
+}
+
+.header__mail:hover {
+    cursor: pointer;        
+}
+
+.header__call:hover {
+    cursor: pointer; 
+}
+
+.contacts__link {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.contacts__img-bg{
+    width: 68px;
+    height: 68px;
+    border-radius: 50px;
+    background-color: #FFB342;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contacts__items {
+}
+.contacts__tittel {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+}
+.contacts__item {
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+}
+
+.header__nav {
+    display: flex;
+    height: 88px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFB342;
+}
+
+.nav__links {
+    display: flex;
+    column-gap: 50px;   
+    padding-left: 45px ; 
+}
+
+.nav__link a{
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    color: #222222;
+}
+.nav__link.active a {
+    color: white;
+}
+
+.nav__btn {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #F4F4F4;
+    background-color: #1C2752;
+}
+
+.btn {
+    padding: 19px 42px;
+    margin-right: 10px;
+}
+
+.header__content {
+}
+.main {
+}
+.footer {
+}
