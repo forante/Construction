@@ -5,14 +5,15 @@ body {
     font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
-.wrapper {
+/*.wrapper {
     display: flex;
     min-width: 100%;
     position: relative;
-}
+    flex-direction: column;
+}*/
 
 .header {
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -136,6 +137,7 @@ body {
     letter-spacing: 0.36px;
     color: #222222;  
 }
+
 .nav__link.active a {
     color: white;
 }
@@ -168,7 +170,7 @@ body {
 }
 
 .content__item{
-    padding-top: 260px;
+    padding: 260px 0 220px 0;
 }
 
 .customer {
@@ -223,5 +225,122 @@ body {
     flex: 1 1 auto;;
 }
 
+/*Section Welcome*/
+
+.welcome {
+    padding-top: 140px;
+}
+
+.welcome__row {
+    display: flex;
+    column-gap: 50px;
+}
+
+.welcome__img {
+    height: 575px;
+    height: 581px;
+    padding-bottom: 140px;
+}
+
+.welcome__content {
+    padding: 11px 0;
+}
+
+.icon__row {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    background-color: #F4F4F4;
+    max-width: 249px;
+    margin-bottom: 22px;
+}
+
+.content__icon {
+    padding-left: 20px;
+}
+
+.tittel h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 130%;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+}
+
+.conntent__tittel {
+    padding-bottom: 12px;
+}
+
+.content__text p{
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+    padding-bottom: 10px;
+}
+
+.content__experience {
+    display: flex;
+    padding-top: 10px;
+    column-gap: 40px;
+}
+
+.experience__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 16px;
+    width: 198px;
+    height: 220px;
+    background-color: #F4F4F4;
+}
+.experience__number {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110%;
+    text-align: center;
+    padding-top: 24px;
+    letter-spacing: 0.36px;
+    color: #FFB342;
+}
+
+.experience__text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    max-width: 112px;
+}
+
+.experience__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-top: 17.5px;
+}
+
+.experience__item {
+    font-size: 17px;
+    line-height: 159%;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+}
+
+li::before {
+    content: '-';
+    padding-right: 5px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Section */
 .footer {
 }
