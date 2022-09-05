@@ -937,5 +937,151 @@ body {
     padding-bottom: 140px; 
 }
 
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Prices*/
+
+.prices {
+    background-color: #F4F4F4;
+    padding-top: 140px;
+}
+
+.price__header {
+    display: flex;
+    column-gap: 111px;
+}
+
+.price__titel {
+    max-width: 497px;
+    flex: 0 1 50%;
+    padding-bottom: 60px;
+}
+
+
+.price__text {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+    flex: 0 1 50%;
+}
+
+.price__cards {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+    padding-bottom: 62px;
+}
+
+.price__card {
+    padding: 40px 40px 50px 40px;
+    background-color: white;
+}
+
+.price__card__titel {
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    color: #1C2752;    
+    padding-bottom: 7px; 
+}
+
+.price__block {
+    display: flex;
+    gap: 42px;
+    padding-bottom: 38px;    
+}
+
+.price__cost {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    
+}
+
+.price__visit {
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 0.32px;
+    color: #7E7E7E;
+    display: flex;
+    align-items: flex-end;
+}
+
+.line {
+    margin-bottom: 30px;
+}
+
+.price__items li{
+    font-size: 17px;
+    line-height: 159%;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7E7E7E;
+    padding-bottom:20px;
+    list-style-image: url('../img/price/mini-done.svg');
+    list-style-position: inside;
+    
+    
+}
+
+.price__items li:last-child{
+    padding-bottom: 55px;
+    
+}
+
+.price__btn {
+    text-align: center;
+    padding: 19px 106px;
+    background-color: #FFB342;
+}
+
+.price__btn:hover {
+    cursor: pointer;
+    background-color: #f9c06b;
+}
+
+.price__extra {
+    display: flex;
+    column-gap: 30px;
+}
+
+.extra__block {
+    flex: 0 1 50%;
+}
+
+.extra__block::before {
+    content: '';
+    background-image: url('../img/price/done.svg');
+    background-repeat: no-repeat;    
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #FFB342;
+    background-position: center;
+    
+}
+
+.extra__titel {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    padding-bottom: 9px;
+}
+
+.extra__text {
+    font-size: 17px;
+    line-height: 159%;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+    padding-bottom: 128px;
+}
+
 .footer {
 }
